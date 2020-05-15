@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://iammagnus.com/wp-content/uploads/2016/05/website-design-background-1.jpg");
+  background-size: 100%, auto;
+  font-family: Sans-serif;
+}
+.heading {
+  color: white;
+  text-align: center;
+}
+#global-container {
+  color: white;
+  background-color: rgba(100,100,100,0.5);
+  width: 50em;
+  margin-left: 25%;
+  border: 1px solid rgba(100,100,100,0.5);
+  border-radius: 1em;
+}
+
+#container {
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+#button {
+  background-color: rgba(0, 150, 70, 1);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 1em;
+  font-weight: bold;
+}
+

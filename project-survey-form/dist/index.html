@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Web Design Projects - Build a Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="heading">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+      
+    <div id="global-container">
+      <div id="container">
+    <form id="survey-form">
+    <label for="fname" id="name-label">Name</label><br>
+    <input type="text" id="fname" name="fname" value="Enter your name">
+    <br><br>
+    <label for="email" id="email-label">Email</label><br>
+    <input type="email" id="email" name="email" value="Enter your email">
+    <br><br>
+    <label for="age" id="number-label">Age(optional)</label><br>
+    <input type="number" id="number" min=10 max=60 value="18">
+    <br><br>
+    <label for="current role">Which option best describes your current role?</label><br>
+    <select id="dropdown">
+      <option>Student</option>
+      <option>Full time job</option>
+      <option>Full time learner</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+    </select>
+    <br><br>
+    <label for="feedback">Would you recommend freeCodeCamp to a friend?</label><br>
+    <input type="radio" name="feedback" value="Definetely">
+    <label for="Definetely">Definetely</label><br>
+    <input type="radio" name="feedback" value="maybe">
+    <label for="maybe">Maybe</label><br>
+    <input type="radio" name="feedback" value="Not sure">
+    <label for="Not sure">Not sure</label><br>
+    <br>
+    <label for="dropdown2">What is your favorite feature of freeCodeCamp?</label><br>
+    <select id="dropdown2">
+      <option>Challenges</option>
+      <option>Projects</option>
+      <option>Community</option>
+    </select> <br>
+    <br>
+    <label for="recommendation">What would you like to see improved? (Check all that apply)</label><br>
+    <input type="checkbox" name="option1" value="Front-end Projects">
+    <label for="option1">Front-end Projects</label> <br>
+    <input type="checkbox" name="option2" value="Back-end Projects">
+    <label for="option2">Back-end Projects</label> <br>
+    <input type="checkbox" name="option3" value="Visualization">
+    <label for="option3">Data Visualization</label> <br>
+    <input type="checkbox" name="option4"  value="Challenges">
+    <label for="option4">Challenges</label> <br>
+    <br>
+      <p>Any comments or suggestions?</p>
+    
+    <textarea name="comments" rows="10" columns="50" value="Enter your comments here..."></textarea>
+    <br><br>
+    <input id="button" type="submit" value="Submit">
+                                       
+  </form>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
